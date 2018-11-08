@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Acme|Patrick+Hand')
 html {
   font-size: 1em;
 }
@@ -13,7 +15,7 @@ p {
   margin-bottom: 1.3em;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Fahkwang', serif;
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
@@ -21,15 +23,51 @@ h1, h2, h3, h4 {
 }
 
 h1 {
+  font-family: 'Fahkwang', serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
   margin-top: 0;
   font-size: 3.998em;
   text-align: center;
 }
 
-h2 {font-size: 2.827em;}
+h2 {
+  font-family: 'Acme', sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 3;
+  font-size: 1.999em;
+  text-align:  center;
+}
 
-h3 {font-size: 1.999em;}
+h3 {
+  font-family: 'Patrick Hand', cursive;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 3;
+  font-size: 1.999em;
+text-align: left;}
 
-h4 {font-size: 1.414em;}
+h4 {  font-family: 'Acme', sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 3;
+  font-size: 1.999em;
+text-align: center;}
 
+
+h5 {  font-family: 'Patrick Hand', cursive;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 3;
+  font-size: 1.999em;
+text-align: left;}
+
+h6 {  font-family: 'Acme', sans-serif;
+margin: 1.414em 0 0.5em;
+font-weight: inherit;
+line-height: 3;
+font-size: 1.999em;
+text-align:center;;}
 small, .font_small {font-size: 0.707em;}

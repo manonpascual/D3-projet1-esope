@@ -1,6 +1,6 @@
 
 header {
-  background: rgb(45, 30, 80);
+  background: rgb(21,167,170);
   padding: 12px;
 }
 
@@ -11,6 +11,7 @@ header ul {
 header li {
   display: inline-block;
   border: 1px solid #ffffff;
+
 }
 
 header a {
@@ -21,36 +22,55 @@ header a {
 }
 
 .hero {
-  background: rgb(05, 0, 0) url('image/nenuphar.jpg') top center no-repeat;
-  color : #07105B;
+  background: rgb(21,167,170) url('image/dessin.jpg') top center no-repeat;
+  color : #ffffff;
   min-height: 100vh;
-}
+  padding: 1px;
+  }
 
 
 section {
   min-height: 90vh;
-  padding: 42px;
-}
-
-.odd {
-  background: rgb(139, 120, 120);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .even {
-  background: rgb(12, 150, 234);
+  flex-direction: row-reverse;
 }
+
+.content,
+.illustration {
+  flex-basis: 480px;
+}
+
+.odd {
+  display: right;
+  background: rgb(255, 255,255);
+  }
+
+.even {
+  background: rgb(21, 167, 170);
+
+  }
 
 
 
 .image-block {
-  max-width: 640px;
-  border: 12px solid #000;
+  max-width: 400px;
+  max-height: 50vh;
+  border: 12px solid #15A7AA;
+
 }
 
 .image-block img {
   width : 100%;
 display:block;
+
 }
+.image-block2 
 
 figcaption {
   font-family: 'Fahkwang', serif;
@@ -59,8 +79,8 @@ figcaption {
 }
 
 footer {
-  min-height: 600px;
-  background: #0C96EA
+  min-height: 200px;
+  background: #15A7AA
 
   ;
   color : #fff;
